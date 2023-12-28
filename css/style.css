@@ -3230,7 +3230,7 @@ textarea.form-control {
   margin-left: 10rem;
   margin-bottom: 10rem;
 }
-@media only screen and (max-width: 330px) {
+@media only screen and (max-width: 350px) {
   .navbar-brand {
     margin: 0 !important;
     width: 80% !important;
