@@ -3230,8 +3230,83 @@ textarea.form-control {
   margin-left: 10rem;
   margin-bottom: 10rem;
 }
+@media only screen and (max-width: 330px) {
+  .navbar-brand {
+    margin: 0 !important;
+    width: 80% !important;
+  }
+  .navbar-logo {
+    margin: 0 !important;
+  }
+  div.grid-AboutWhycontainer {
+    display: grid !important;
+    place-items: center !important;
+    grid-template-columns: none !important;
+  }
+  div.core-div {
+    width: fit-content !important;
+  }
+  div.service1-div {
+    width: fit-content !important;
+  }
+  div.service1-seconddiv {
+    width: fit-content !important;
+  }
 
-@media only screen and (max-width: 450px) {
+  div.bull-container {
+    place-items: center !important;
+    grid-template-columns: none !important;
+  }
+  div.bull-container {
+    display: grid !important;
+    place-items: center !important;
+    grid-template-columns: none !important;
+  }
+  div.service1-maindiv {
+    place-items: center !important;
+    grid-template-columns: none !important;
+  }
+  div.grid-AboutLastcontainer {
+    place-items: center !important;
+    grid-template-columns: none !important;
+  }
+  .navbar-main .nav {
+    padding-left: 20px;
+    background-color: #ffffff;
+    opacity: 0.8;
+  }
+  .navbar-main .nav.navbar-right > li > a {
+    font-weight: 600;
+    color: #000204;
+  }
+  ul.dropdown-menu > li > a {
+    font-weight: 400;
+    color: #000204 !important;
+  }
+  div.career-content {
+    width: fit-content;
+    float: left !important;
+    margin: 0 !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+
+  ul.bull > li {
+    width: fit-content;
+  }
+  ul.bull > p {
+    width: fit-content;
+    margin-left: 30px !important;
+  }
+  ul.bull > h4 {
+    width: fit-content;
+  }
+  div.about-lastdiv {
+    width: fit-content !important;
+  }
+}
+
+@media only screen and (max-width: 780px) {
   .navbar-brand > img {
     margin-left: 0 !important;
     width: 40% !important;
@@ -3262,6 +3337,7 @@ textarea.form-control {
     grid-template-columns: none !important;
   }
   .navbar-main .nav {
+    padding-left: 20px;
     background-color: #ffffff;
     opacity: 0.8;
   }
@@ -3277,19 +3353,22 @@ textarea.form-control {
     width: fit-content;
     float: left !important;
     margin: 0 !important;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
   }
 
   ul.bull > li {
-    max-width: 380px;
+    width: fit-content;
   }
   ul.bull > p {
-    max-width: 380px;
-    margin-left: 30px;
+    width: fit-content;
+    margin-left: 30px !important;
   }
   ul.bull > h4 {
-    max-width: 380px;
+    width: fit-content;
+  }
+  div.about-lastdiv {
+    width: fit-content !important;
   }
 }
 
