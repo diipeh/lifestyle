@@ -3230,6 +3230,69 @@ textarea.form-control {
   margin-left: 10rem;
   margin-bottom: 10rem;
 }
+
+@media only screen and (max-width: 450px) {
+  .navbar-brand > img {
+    margin-left: 0 !important;
+    width: 40% !important;
+  }
+  .navbar-logo {
+    margin-left: 0 !important;
+  }
+  div.grid-AboutWhycontainer {
+    display: grid !important;
+    place-items: center !important;
+    grid-template-columns: none !important;
+  }
+  div.bull-container {
+    place-items: center !important;
+    grid-template-columns: none !important;
+  }
+  div.bull-container {
+    display: grid !important;
+    place-items: center !important;
+    grid-template-columns: none !important;
+  }
+  div.service1-maindiv {
+    place-items: center !important;
+    grid-template-columns: none !important;
+  }
+  div.grid-AboutLastcontainer {
+    place-items: center !important;
+    grid-template-columns: none !important;
+  }
+  .navbar-main .nav {
+    background-color: #ffffff;
+    opacity: 0.8;
+  }
+  .navbar-main .nav.navbar-right > li > a {
+    font-weight: 600;
+    color: #000204;
+  }
+  ul.dropdown-menu > li > a {
+    font-weight: 400;
+    color: #000204 !important;
+  }
+  div.career-content {
+    width: fit-content;
+    float: left !important;
+    margin: 0 !important;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  ul.bull > li {
+    max-width: 380px;
+  }
+  ul.bull > p {
+    max-width: 380px;
+    margin-left: 30px;
+  }
+  ul.bull > h4 {
+    max-width: 380px;
+  }
+}
+
 .navbar-main .navbar-brand {
   width: 290px;
   left: 40rem;
