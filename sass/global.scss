@@ -610,8 +610,12 @@ ul.circle{
 
 .banner-page{
 	padding: 50px 0;
-	background: $color_4 url('../images/1920x960.jpg') bottom center no-repeat;
+	background: linear-gradient(
+		rgba(233, 225, 225, 0.5) 100%,
+		rgba(227, 219, 219, 0.5) 100%
+	  ), url('../images/paper-background.jpg') bottom center no-repeat;
 	background-size: cover;
+	
 	.title-page{
 		text-align: center;
 	    font-size: 30px;
