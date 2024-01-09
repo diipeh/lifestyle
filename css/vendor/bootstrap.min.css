@@ -3972,6 +3972,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   display: block;
   padding: 10px 15px;
 }
+
+@media only screen and (max-width: 990px) and (min-width: 780px ){
+  .nav > li > a {padding: 10px 5px;}
+}
 .nav > li > a:hover,
 .nav > li > a:focus {
   text-decoration: none;
@@ -4227,7 +4231,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .container > .navbar-collapse,
   .container-fluid > .navbar-collapse {
     margin-right: 0;
-    margin-left: 0;
+    margin-left: -140px;
   }
 }
 .navbar-static-top {
@@ -4331,7 +4335,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
   .navbar-nav .open .dropdown-menu > li > a,
   .navbar-nav .open .dropdown-menu .dropdown-header {
-    padding: 5px 15px 5px 25px;
+    padding: 5px 10px 5px 25px;
   }
   .navbar-nav .open .dropdown-menu > li > a {
     line-height: 20px;
@@ -4344,7 +4348,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 @media (min-width: 768px) {
   .navbar-nav {
     float: left;
-    margin: 0;
   }
   .navbar-nav > li {
     float: left;
@@ -4478,7 +4481,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
   .navbar-right {
     float: right !important;
-    margin-right: -15px;
+    margin-right: -92px;
   }
   .navbar-right ~ .navbar-right {
     margin-right: 0;
@@ -4695,7 +4698,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .breadcrumb > li + li:before {
   padding: 0 5px;
   color: #ccc;
-  content: "/\00a0";
+  
 }
 .breadcrumb > .active {
   color: #777;
